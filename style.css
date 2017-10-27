@@ -1,0 +1,226 @@
+input[type=checkbox]+label{
+    display: block;
+}
+input[type=checkbox]{
+    display: none;
+}
+
+input[type=checkbox] + label:before{
+    content: "\2714";
+    border: 0.1em solid #000;
+    border-radius: 0.3em;
+    display:inline-block;
+    width: 1em;
+    height: 1em;
+    padding-left: 0.2em;
+    padding-bottom: 0.3em;
+    margin-right: 0.3em;
+    vertical-align: top;
+    color:transparent;
+
+}
+input[type=checkbox]+label{
+    display: inline-block;
+    margin:0.2em;
+    cursor: pointer;
+    padding: 0.3em;
+
+}
+
+input[type=checkbox] + label:active:before{
+    transform: scale(0);
+}
+
+
+
+
+input[type=checkbox]:checked + label:before{
+    background-color:MediumSeaGreen;
+    border-color: MediumSeaGreen;
+    color:#fff;
+
+}
+
+input[type=text] {
+    background-color: bisque;
+    color: gray;
+    font-size: 15px;
+    width:35%;
+    border:1px;
+    border-color: bisque;
+    height:35px;
+    border-radius: 5%;
+    font-family: "Algerian";
+    margin-left: 20px;
+}
+input[type=text]:focus{
+    background-color: cornsilk;
+    border-color: darkkhaki;
+    border-radius: 40%;
+}
+.btn {
+    display: inline-block;
+    font-weight: normal;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    border: 1px solid transparent;
+    padding: 0.65rem 0.95rem;
+    font-size: 0.8rem;
+    line-height: 1.25;
+    border-radius: 0.25rem;
+    transition: all 0.15s ease-in-out;
+    font-family: "Algerian";
+
+}
+
+
+.btn-primary {
+    color: #fff;
+    background-color: peru;
+    border-color: peru;
+    cursor: pointer;
+
+}
+.btn-delete{
+    background-color:red;
+    color:#fff;
+    cursor: pointer;
+
+
+}
+.btn-primary:hover {
+    color: #fff;
+    background-color: darkolivegreen;
+    border-color: #0062cc;
+    cursor: pointer;
+
+}
+.btn-link {
+    font-weight: normal;
+    color: #007bff;
+    border-radius: 0;
+}
+
+.btn-link, .btn-link:active, .btn-link.active, .btn-link:disabled {
+    background-color: transparent;
+}
+
+.btn-link, .btn-link:focus, .btn-link:active {
+    border-color: transparent;
+    box-shadow: none;
+}
+
+.btn-link:hover {
+    border-color: transparent;
+}
+.btn-link:focus, .btn-link:hover {
+    color: #0056b3;
+    text-decoration: underline;
+    background-color: transparent;
+}
+
+.head   {
+    display: inline;
+
+    margin-left: 10px;
+    font-size: medium;
+}
+
+.head1{
+    margin-left: 15.5%;
+    color:slategray;
+    cursor: pointer;
+
+}
+.head2{
+    margin-left:2%;
+    border-radius: 50%;
+    color:darkred;
+    cursor: pointer;
+
+}
+
+.btn-link:disabled {
+    color: #868e96;
+}
+
+.btn-link:disabled:focus, .btn-link:disabled:hover {
+    text-decoration: none;
+}
+
+div { height:10%; }
+.success {
+    font-size: 30px;
+    text-align: center;
+    padding: 25px;
+    background-color: darkslategrey;
+    color: floralwhite;
+    font-weight: bold;
+    font-family: "Algerian";
+
+
+}
+
+label{
+    width:35%;
+}
+@font-face {
+    font-family: 'Glyphicons Halflings';
+    src: url('//cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/fonts/glyphicons-halflings-regular.eot');
+    src: url('//cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/fonts/glyphicons-halflings-regular.eot?#iefix') format('embedded-opentype'),
+    url('//cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/fonts/glyphicons-halflings-regular.woff2') format('woff2'),
+    url('//cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/fonts/glyphicons-halflings-regular.woff') format('woff'),
+    url('//cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/fonts/glyphicons-halflings-regular.ttf') format('truetype'),
+    url('//cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/fonts/glyphicons-halflings-regular.svg#glyphicons_halflingsregular') format('svg');
+}
+
+
+.glyphicon {
+    position: relative;
+    top: 1px;
+    display: inline-block;
+    font-family: 'Glyphicons Halflings';
+    font-style: normal;
+    font-weight: 400;
+
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale
+}
+
+.glyphicon-edit:before {
+    content: "\e065"
+}
+.glyphicon-remove-sign:before {
+    content: "\e088";
+
+}
+.glyphicon-trash:before {
+    content: "\e020";
+
+
+}
+.dall{
+    color:red;
+    margin-left: 3%;
+    size:20px;
+    cursor: pointer;
+
+}
+.ddone{
+    color:green;
+    margin-left: 10px;
+    cursor: pointer;
+
+}
+
+
+
+
+
+
